@@ -75,7 +75,7 @@ MonoBehaviour:
   m_MinSize: {x: 982, y: 492}
   m_MaxSize: {x: 18005, y: 14042}
   vertical: 0
-  controlID: 205
+  controlID: 1449
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -201,7 +201,7 @@ MonoBehaviour:
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
-  m_LastLoadedLayoutName: RoomAssetLayout
+  m_LastLoadedLayoutName: EnemyPrefabLayout
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -247,7 +247,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 255
+  controlID: 1340
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -272,7 +272,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 211
+  controlID: 1517
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -363,7 +363,7 @@ MonoBehaviour:
       m_Tutorial: {fileID: 0}
       m_Icons:
         m_Items: []
-      m_Image: {fileID: 2800000, guid: 59ee9782ecd754efa80a388d1782d503, type: 3}
+      m_Image: {fileID: 2800000, guid: 2ca2357d648eb412d8129fa039b986fe, type: 3}
       m_Video: {fileID: 0}
       m_CriteriaCompletion: 0
       m_Criteria:
@@ -373,16 +373,11 @@ MonoBehaviour:
         m_UnmaskedViews: []
   - paragraph:
       m_Type: 0
-      m_Summary: Add a Room
-      m_Description: 'In this tutorial, you''ll learn more about the <b>Unity Editor</b>,
-        which will be super helpful as you modify your game.
-
-
-        You will also
-        learn how to <b>add and move level objects</b> in the scene.
-
-
-'
+      m_Summary: Add an Enemy Bot
+      m_Description: "Make your game more challenging by adding an enemy bot prefab.
+        \n<br/>\n<b>Prefabs</b> are a GameObject that has components and properties,
+        and is stored as an asset. It can be reused anywhere you want in your game.\n\n<b>Project
+        window</b> lists all the prefabs that are available in this project.\n\n"
       m_InstructionBoxTitle: 
       m_InstructionText: 
       m_TutorialButtonText: 
@@ -416,97 +411,6 @@ MonoBehaviour:
         m_MaskingEnabled: 0
         m_UnmaskedViews: []
   - paragraph:
-      m_Type: 6
-      m_Summary: 
-      m_Description: 
-      m_InstructionBoxTitle: 
-      m_InstructionText: 
-      m_TutorialButtonText: 
-      m_Tutorial: {fileID: 0}
-      m_Icons:
-        m_Items: []
-      m_Image: {fileID: 2800000, guid: f3a64c50e0c284cf99bce0ae27d5a8c0, type: 3}
-      m_Video: {fileID: 0}
-      m_CriteriaCompletion: 0
-      m_Criteria:
-        m_Items: []
-      m_MaskingSettings:
-        m_MaskingEnabled: 1
-        m_UnmaskedViews:
-        - m_SelectorType: 1
-          m_ViewType:
-            m_TypeName: 
-          m_EditorWindowType:
-            m_TypeName: UnityEditor.SceneView, UnityEditor, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 1
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls: []
-        - m_SelectorType: 1
-          m_ViewType:
-            m_TypeName: 
-          m_EditorWindowType:
-            m_TypeName: UnityEditor.SceneHierarchyWindow, UnityEditor, Version=0.0.0.0,
-              Culture=neutral, PublicKeyToken=null
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 1
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls: []
-  - paragraph:
-      m_Type: 0
-      m_Summary: Hierarchy and Scene view
-      m_Description: 'The <b>Scene view</b> allows you to navigate and edit your
-        scene.
-
-        <br/>
-
-        The <b>Hierarchy window</b> contains a list
-        of everything in the current scene that is open in the editor.
-
-        <br/>
-
-        Click
-        <b>Next</b> to continue.'
-      m_InstructionBoxTitle: 
-      m_InstructionText: 
-      m_TutorialButtonText: 
-      m_Tutorial: {fileID: 0}
-      m_Icons:
-        m_Items: []
-      m_Image: {fileID: 0}
-      m_Video: {fileID: 0}
-      m_CriteriaCompletion: 0
-      m_Criteria:
-        m_Items: []
-      m_MaskingSettings:
-        m_MaskingEnabled: 0
-        m_UnmaskedViews:
-        - m_SelectorType: 1
-          m_ViewType:
-            m_TypeName: 
-          m_EditorWindowType:
-            m_TypeName: UnityEditor.SceneView, UnityEditor, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 1
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls: []
-        - m_SelectorType: 1
-          m_ViewType:
-            m_TypeName: 
-          m_EditorWindowType:
-            m_TypeName: UnityEditor.SceneHierarchyWindow, UnityEditor, Version=0.0.0.0,
-              Culture=neutral, PublicKeyToken=null
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 1
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls: []
-  - paragraph:
       m_Type: 7
       m_Summary: 
       m_Description: 
@@ -516,668 +420,11 @@ MonoBehaviour:
       m_Tutorial: {fileID: 0}
       m_Icons:
         m_Items: []
-      m_Image: {fileID: 2800000, guid: 7dbd9a3dc7b4c4e1985f9ca6cfa1d4f7, type: 3}
-      m_Video: {fileID: 32900000, guid: 95df4ffa2c72c49f0b90fa2a68c3901b, type: 3}
+      m_Image: {fileID: 2800000, guid: a9206245612314ecfa13613a44a7f9f0, type: 3}
+      m_Video: {fileID: 32900000, guid: 5ac8547c1357e44ef84b3fdfda948b7f, type: 3}
       m_CriteriaCompletion: 0
       m_Criteria:
         m_Items: []
-      m_MaskingSettings:
-        m_MaskingEnabled: 1
-        m_UnmaskedViews:
-        - m_SelectorType: 1
-          m_ViewType:
-            m_TypeName: 
-          m_EditorWindowType:
-            m_TypeName: UnityEditor.SceneView, UnityEditor, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls: []
-        - m_SelectorType: 0
-          m_ViewType:
-            m_TypeName: UnityEditor.Toolbar, UnityEditor, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_EditorWindowType:
-            m_TypeName: 
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls:
-          - m_SelectorMode: 1
-            m_GUIContent:
-              m_Text: 
-              m_Image: {fileID: 0}
-              m_Tooltip: 
-            m_ControlName: ToolbarPersistentToolsPan
-            m_PropertyPath: 
-            m_TargetType:
-              m_TypeName: 
-            m_GUIStyleName: 
-  - paragraph:
-      m_Type: 0
-      m_Summary: Hand Tool
-      m_Description: "Let\u2019s try the <b>Hand Tool</b>, which allows you to navigate
-        your view of the scene."
-      m_InstructionBoxTitle: 
-      m_InstructionText: 
-      m_TutorialButtonText: 
-      m_Tutorial: {fileID: 0}
-      m_Icons:
-        m_Items: []
-      m_Image: {fileID: 0}
-      m_Video: {fileID: 0}
-      m_CriteriaCompletion: 0
-      m_Criteria:
-        m_Items: []
-      m_MaskingSettings:
-        m_MaskingEnabled: 0
-        m_UnmaskedViews: []
-  - paragraph:
-      m_Type: 1
-      m_Summary: 
-      m_Description: 
-      m_InstructionBoxTitle: Select Hand Tool
-      m_InstructionText: Click the Hand Tool in the upper left corner of the <b>Toolbar</b>
-        at the top of the editor.
-      m_TutorialButtonText: 
-      m_Tutorial: {fileID: 0}
-      m_Icons:
-        m_Items: []
-      m_Image: {fileID: 0}
-      m_Video: {fileID: 0}
-      m_CriteriaCompletion: 0
-      m_Criteria:
-        m_Items:
-        - type:
-            m_TypeName: Unity.InteractiveTutorials.ActiveToolCriterion, Unity.InteractiveTutorials.Core,
-              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-          criterion: {fileID: 114140302119297188, guid: 900124fb13aba4ef4bf556c0f782d127,
-            type: 2}
-      m_MaskingSettings:
-        m_MaskingEnabled: 0
-        m_UnmaskedViews:
-        - m_SelectorType: 1
-          m_ViewType:
-            m_TypeName: 
-          m_EditorWindowType:
-            m_TypeName: UnityEditor.SceneView, UnityEditor, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls: []
-        - m_SelectorType: 0
-          m_ViewType:
-            m_TypeName: UnityEditor.Toolbar, UnityEditor, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_EditorWindowType:
-            m_TypeName: 
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls:
-          - m_SelectorMode: 1
-            m_GUIContent:
-              m_Text: 
-              m_Image: {fileID: 0}
-              m_Tooltip: 
-            m_ControlName: ToolbarPersistentToolsPan
-            m_PropertyPath: 
-            m_TargetType:
-              m_TypeName: 
-            m_GUIStyleName: 
-  - paragraph:
-      m_Type: 7
-      m_Summary: 
-      m_Description: 
-      m_InstructionBoxTitle: 
-      m_InstructionText: 
-      m_TutorialButtonText: 
-      m_Tutorial: {fileID: 0}
-      m_Icons:
-        m_Items: []
-      m_Image: {fileID: 0}
-      m_Video: {fileID: 32900000, guid: ada8f9a94a5564996b8ceae06318bae7, type: 3}
-      m_CriteriaCompletion: 0
-      m_Criteria:
-        m_Items: []
-      m_MaskingSettings:
-        m_MaskingEnabled: 1
-        m_UnmaskedViews:
-        - m_SelectorType: 1
-          m_ViewType:
-            m_TypeName: 
-          m_EditorWindowType:
-            m_TypeName: UnityEditor.SceneView, UnityEditor, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls: []
-        - m_SelectorType: 0
-          m_ViewType:
-            m_TypeName: UnityEditor.Toolbar, UnityEditor, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_EditorWindowType:
-            m_TypeName: 
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls:
-          - m_SelectorMode: 1
-            m_GUIContent:
-              m_Text: 
-              m_Image: {fileID: 0}
-              m_Tooltip: 
-            m_ControlName: ToolbarPersistentToolsPan
-            m_PropertyPath: 
-            m_TargetType:
-              m_TypeName: 
-            m_GUIStyleName: 
-  - paragraph:
-      m_Type: 0
-      m_Summary: Pan Scene with Hand Tool
-      m_Description: 'Now that you have selected the <b>Hand tool</b>, place your
-        cursor in the <b>Scene view</b> and try the following steps to move your
-        view of the scene in several ways:'
-      m_InstructionBoxTitle: 
-      m_InstructionText: 
-      m_TutorialButtonText: 
-      m_Tutorial: {fileID: 0}
-      m_Icons:
-        m_Items: []
-      m_Image: {fileID: 0}
-      m_Video: {fileID: 0}
-      m_CriteriaCompletion: 0
-      m_Criteria:
-        m_Items: []
-      m_MaskingSettings:
-        m_MaskingEnabled: 0
-        m_UnmaskedViews: []
-  - paragraph:
-      m_Type: 1
-      m_Summary: 
-      m_Description: 
-      m_InstructionBoxTitle: Pan around the scene
-      m_InstructionText: Hold down the left mouse button and move the mouse to pan.
-      m_TutorialButtonText: 
-      m_Tutorial: {fileID: 0}
-      m_Icons:
-        m_Items: []
-      m_Image: {fileID: 0}
-      m_Video: {fileID: 0}
-      m_CriteriaCompletion: 0
-      m_Criteria:
-        m_Items:
-        - type:
-            m_TypeName: Unity.InteractiveTutorials.SceneViewCameraMovedCriterion,
-              Unity.InteractiveTutorials.Core, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          criterion: {fileID: 114669061955605264, guid: 08664b222211f4218bcf3356bf7bae3e,
-            type: 2}
-      m_MaskingSettings:
-        m_MaskingEnabled: 0
-        m_UnmaskedViews:
-        - m_SelectorType: 1
-          m_ViewType:
-            m_TypeName: 
-          m_EditorWindowType:
-            m_TypeName: UnityEditor.SceneView, UnityEditor, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls: []
-        - m_SelectorType: 0
-          m_ViewType:
-            m_TypeName: UnityEditor.Toolbar, UnityEditor, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_EditorWindowType:
-            m_TypeName: 
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls:
-          - m_SelectorMode: 1
-            m_GUIContent:
-              m_Text: 
-              m_Image: {fileID: 0}
-              m_Tooltip: 
-            m_ControlName: ToolbarPersistentToolsPan
-            m_PropertyPath: 
-            m_TargetType:
-              m_TypeName: 
-            m_GUIStyleName: 
-  - paragraph:
-      m_Type: 7
-      m_Summary: 
-      m_Description: 
-      m_InstructionBoxTitle: 
-      m_InstructionText: 
-      m_TutorialButtonText: 
-      m_Tutorial: {fileID: 0}
-      m_Icons:
-        m_Items: []
-      m_Image: {fileID: 0}
-      m_Video: {fileID: 32900000, guid: 01ce4eaa9face4b46b9bdb9399032dcb, type: 3}
-      m_CriteriaCompletion: 0
-      m_Criteria:
-        m_Items: []
-      m_MaskingSettings:
-        m_MaskingEnabled: 1
-        m_UnmaskedViews:
-        - m_SelectorType: 1
-          m_ViewType:
-            m_TypeName: 
-          m_EditorWindowType:
-            m_TypeName: UnityEditor.SceneView, UnityEditor, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls: []
-        - m_SelectorType: 0
-          m_ViewType:
-            m_TypeName: UnityEditor.Toolbar, UnityEditor, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_EditorWindowType:
-            m_TypeName: 
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls:
-          - m_SelectorMode: 1
-            m_GUIContent:
-              m_Text: 
-              m_Image: {fileID: 0}
-              m_Tooltip: 
-            m_ControlName: ToolbarPersistentToolsPan
-            m_PropertyPath: 
-            m_TargetType:
-              m_TypeName: 
-            m_GUIStyleName: 
-  - paragraph:
-      m_Type: 0
-      m_Summary: Orbit Scene with Hand Tool
-      m_Description: 'Now let''s look around within the Scene view:'
-      m_InstructionBoxTitle: 
-      m_InstructionText: 
-      m_TutorialButtonText: 
-      m_Tutorial: {fileID: 0}
-      m_Icons:
-        m_Items: []
-      m_Image: {fileID: 0}
-      m_Video: {fileID: 0}
-      m_CriteriaCompletion: 0
-      m_Criteria:
-        m_Items: []
-      m_MaskingSettings:
-        m_MaskingEnabled: 0
-        m_UnmaskedViews: []
-  - paragraph:
-      m_Type: 1
-      m_Summary: 
-      m_Description: 
-      m_InstructionBoxTitle: Orbit the scene
-      m_InstructionText: Hold down the <b>Alt or Option</b> key and the <b>left mouse
-        button</b>, and move the mouse to orbit your view of the scene.
-      m_TutorialButtonText: 
-      m_Tutorial: {fileID: 0}
-      m_Icons:
-        m_Items: []
-      m_Image: {fileID: 0}
-      m_Video: {fileID: 0}
-      m_CriteriaCompletion: 0
-      m_Criteria:
-        m_Items:
-        - type:
-            m_TypeName: Unity.InteractiveTutorials.SceneViewCameraMovedCriterion,
-              Unity.InteractiveTutorials.Core, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          criterion: {fileID: 114562644421750226, guid: f16e81aa0b771435bbff4b88af6cc7ff,
-            type: 2}
-      m_MaskingSettings:
-        m_MaskingEnabled: 0
-        m_UnmaskedViews:
-        - m_SelectorType: 1
-          m_ViewType:
-            m_TypeName: 
-          m_EditorWindowType:
-            m_TypeName: UnityEditor.SceneView, UnityEditor, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls: []
-        - m_SelectorType: 0
-          m_ViewType:
-            m_TypeName: UnityEditor.Toolbar, UnityEditor, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_EditorWindowType:
-            m_TypeName: 
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls:
-          - m_SelectorMode: 1
-            m_GUIContent:
-              m_Text: 
-              m_Image: {fileID: 0}
-              m_Tooltip: 
-            m_ControlName: ToolbarPersistentToolsPan
-            m_PropertyPath: 
-            m_TargetType:
-              m_TypeName: 
-            m_GUIStyleName: 
-  - paragraph:
-      m_Type: 6
-      m_Summary: 
-      m_Description: 
-      m_InstructionBoxTitle: 
-      m_InstructionText: 
-      m_TutorialButtonText: 
-      m_Tutorial: {fileID: 0}
-      m_Icons:
-        m_Items: []
-      m_Image: {fileID: 2800000, guid: b4c3d69d5484d4953a19fba2433bd73c, type: 3}
-      m_Video: {fileID: 0}
-      m_CriteriaCompletion: 0
-      m_Criteria:
-        m_Items: []
-      m_MaskingSettings:
-        m_MaskingEnabled: 1
-        m_UnmaskedViews:
-        - m_SelectorType: 1
-          m_ViewType:
-            m_TypeName: 
-          m_EditorWindowType:
-            m_TypeName: UnityEditor.SceneView, UnityEditor, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls: []
-        - m_SelectorType: 0
-          m_ViewType:
-            m_TypeName: UnityEditor.Toolbar, UnityEditor, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_EditorWindowType:
-            m_TypeName: 
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls:
-          - m_SelectorMode: 1
-            m_GUIContent:
-              m_Text: 
-              m_Image: {fileID: 0}
-              m_Tooltip: 
-            m_ControlName: ToolbarPersistentToolsPan
-            m_PropertyPath: 
-            m_TargetType:
-              m_TypeName: 
-            m_GUIStyleName: 
-  - paragraph:
-      m_Type: 0
-      m_Summary: 'Zoom Scene
-
-'
-      m_Description: 'Let''s try to zoom the Scene view:'
-      m_InstructionBoxTitle: 
-      m_InstructionText: 
-      m_TutorialButtonText: 
-      m_Tutorial: {fileID: 0}
-      m_Icons:
-        m_Items: []
-      m_Image: {fileID: 0}
-      m_Video: {fileID: 0}
-      m_CriteriaCompletion: 0
-      m_Criteria:
-        m_Items: []
-      m_MaskingSettings:
-        m_MaskingEnabled: 0
-        m_UnmaskedViews:
-        - m_SelectorType: 1
-          m_ViewType:
-            m_TypeName: 
-          m_EditorWindowType:
-            m_TypeName: UnityEditor.SceneView, UnityEditor, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls: []
-        - m_SelectorType: 0
-          m_ViewType:
-            m_TypeName: UnityEditor.Toolbar, UnityEditor, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_EditorWindowType:
-            m_TypeName: 
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls:
-          - m_SelectorMode: 1
-            m_GUIContent:
-              m_Text: 
-              m_Image: {fileID: 0}
-              m_Tooltip: 
-            m_ControlName: ToolbarPersistentToolsPan
-            m_PropertyPath: 
-            m_TargetType:
-              m_TypeName: 
-            m_GUIStyleName: 
-  - paragraph:
-      m_Type: 1
-      m_Summary: 
-      m_Description: 
-      m_InstructionBoxTitle: Zoom in and out in the scene
-      m_InstructionText: "Hold down the <b>Alt or Option</b> key and the <b>right
-        mouse</b> button, and move the mouse to zoom in and out. \n\nAlternatively,
-        use the mouse scroll wheel or the scroll gesture on a trackpad."
-      m_TutorialButtonText: 
-      m_Tutorial: {fileID: 0}
-      m_Icons:
-        m_Items: []
-      m_Image: {fileID: 0}
-      m_Video: {fileID: 0}
-      m_CriteriaCompletion: 0
-      m_Criteria:
-        m_Items:
-        - type:
-            m_TypeName: Unity.InteractiveTutorials.SceneViewCameraMovedCriterion,
-              Unity.InteractiveTutorials.Core, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          criterion: {fileID: 114054893517278618, guid: a2e36b4c574d748b99f00191d18a7deb,
-            type: 2}
-      m_MaskingSettings:
-        m_MaskingEnabled: 0
-        m_UnmaskedViews:
-        - m_SelectorType: 1
-          m_ViewType:
-            m_TypeName: 
-          m_EditorWindowType:
-            m_TypeName: UnityEditor.SceneView, UnityEditor, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls: []
-        - m_SelectorType: 0
-          m_ViewType:
-            m_TypeName: UnityEditor.Toolbar, UnityEditor, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_EditorWindowType:
-            m_TypeName: 
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls:
-          - m_SelectorMode: 1
-            m_GUIContent:
-              m_Text: 
-              m_Image: {fileID: 0}
-              m_Tooltip: 
-            m_ControlName: ToolbarPersistentToolsPan
-            m_PropertyPath: 
-            m_TargetType:
-              m_TypeName: 
-            m_GUIStyleName: 
-  - paragraph:
-      m_Type: 6
-      m_Summary: 
-      m_Description: 
-      m_InstructionBoxTitle: 
-      m_InstructionText: 
-      m_TutorialButtonText: 
-      m_Tutorial: {fileID: 0}
-      m_Icons:
-        m_Items: []
-      m_Image: {fileID: 2800000, guid: 2ca2357d648eb412d8129fa039b986fe, type: 3}
-      m_Video: {fileID: 0}
-      m_CriteriaCompletion: 0
-      m_Criteria:
-        m_Items: []
-      m_MaskingSettings:
-        m_MaskingEnabled: 1
-        m_UnmaskedViews: []
-  - paragraph:
-      m_Type: 0
-      m_Summary: Level Prefabs
-      m_Description: "Next, let's make your level more interesting by adding a <b>room
-        prefab</b>. \n<br/>\nA <b>prefab</b> is a GameObject that has components
-        and properties, and is stored as an asset. It can be reused anywhere you
-        want in your game.\n<br/>\n<b>Project window</b> lists all the prefabs that
-        are available in this project.\n<br/>\nClick <b>Next</b> to learn how to
-        add a room to your level."
-      m_InstructionBoxTitle: 
-      m_InstructionText: 
-      m_TutorialButtonText: 
-      m_Tutorial: {fileID: 0}
-      m_Icons:
-        m_Items: []
-      m_Image: {fileID: 0}
-      m_Video: {fileID: 0}
-      m_CriteriaCompletion: 0
-      m_Criteria:
-        m_Items: []
-      m_MaskingSettings:
-        m_MaskingEnabled: 0
-        m_UnmaskedViews: []
-  - paragraph:
-      m_Type: 7
-      m_Summary: 
-      m_Description: 
-      m_InstructionBoxTitle: 
-      m_InstructionText: 
-      m_TutorialButtonText: 
-      m_Tutorial: {fileID: 0}
-      m_Icons:
-        m_Items: []
-      m_Image: {fileID: 2800000, guid: c8894f11065cc46569978ae415bfb87d, type: 3}
-      m_Video: {fileID: 32900000, guid: 6f0ce9b5d31f44b9cbb3501409e8913f, type: 3}
-      m_CriteriaCompletion: 0
-      m_Criteria:
-        m_Items: []
-      m_MaskingSettings:
-        m_MaskingEnabled: 1
-        m_UnmaskedViews:
-        - m_SelectorType: 1
-          m_ViewType:
-            m_TypeName: 
-          m_EditorWindowType:
-            m_TypeName: UnityEditor.ProjectBrowser, UnityEditor, Version=0.0.0.0,
-              Culture=neutral, PublicKeyToken=null
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls: []
-        - m_SelectorType: 1
-          m_ViewType:
-            m_TypeName: 
-          m_EditorWindowType:
-            m_TypeName: UnityEditor.SceneView, UnityEditor, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls: []
-        - m_SelectorType: 1
-          m_ViewType:
-            m_TypeName: 
-          m_EditorWindowType:
-            m_TypeName: UnityEditor.SceneHierarchyWindow, UnityEditor, Version=0.0.0.0,
-              Culture=neutral, PublicKeyToken=null
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls: []
-  - paragraph:
-      m_Type: 0
-      m_Summary: 'Drag Prefab to Scene
-
-'
-      m_Description: "To get your room into the game, you need to drag the <b>Room_Altar</b>
-        Prefab from the <b>Project Window</b> into the <b>Scene Window</b>\r"
-      m_InstructionBoxTitle: 
-      m_InstructionText: 
-      m_TutorialButtonText: 
-      m_Tutorial: {fileID: 0}
-      m_Icons:
-        m_Items: []
-      m_Image: {fileID: 0}
-      m_Video: {fileID: 0}
-      m_CriteriaCompletion: 0
-      m_Criteria:
-        m_Items: []
-      m_MaskingSettings:
-        m_MaskingEnabled: 0
-        m_UnmaskedViews: []
-  - paragraph:
-      m_Type: 1
-      m_Summary: 
-      m_Description: 
-      m_InstructionBoxTitle: Drag Room_Altar Prefab to Scene
-      m_InstructionText: 'Click and drag the <b>Room_Altar</b> Prefab from the <b>Project
-        Window</b> into the empty space on the level floor in the <b>Scene Window</b>
-
-'
-      m_TutorialButtonText: 
-      m_Tutorial: {fileID: 0}
-      m_Icons:
-        m_Items: []
-      m_Image: {fileID: 0}
-      m_Video: {fileID: 0}
-      m_CriteriaCompletion: 0
-      m_Criteria:
-        m_Items:
-        - type:
-            m_TypeName: Unity.InteractiveTutorials.InstantiatePrefabCriterion, Unity.InteractiveTutorials.Core,
-              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-          criterion: {fileID: 114155400192661620, guid: f6daaf2178facf14f92f3e4447cc10fb,
-            type: 2}
       m_MaskingSettings:
         m_MaskingEnabled: 1
         m_UnmaskedViews:
@@ -1194,7 +441,7 @@ MonoBehaviour:
           m_UnmaskedControls:
           - m_SelectorMode: 0
             m_GUIContent:
-              m_Text: Room_Altar
+              m_Text: Enemy_HoverBot
               m_Image: {fileID: 0}
               m_Tooltip: 
             m_ControlName: 
@@ -1213,6 +460,73 @@ MonoBehaviour:
           m_MaskType: 0
           m_MaskSizeModifier: 0
           m_UnmaskedControls: []
+  - paragraph:
+      m_Type: 0
+      m_Summary: Add the enemy
+      m_Description: In the </b>Project</b> window you will find the <b>Enemy_HoverBot</b>
+        prefab.
+      m_InstructionBoxTitle: " Prefabs > Enemiesing your Enemy</size></b>\n\nPrefabs
+        are represented by a blue cube icon or thumbnail image in the <b>Project
+        Window</b>. They are often found in a Prefab folder. \n\nTo select the enemy
+        you want to add to your game, select <b>Enemy_HoverBot</b> Prefab in the
+        Project Window:\n\nFPS > Prefabs > Enemies"
+      m_InstructionText: 
+      m_TutorialButtonText: 
+      m_Tutorial: {fileID: 0}
+      m_Icons:
+        m_Items: []
+      m_Image: {fileID: 0}
+      m_Video: {fileID: 0}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+  - paragraph:
+      m_Type: 1
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: Drag the <b>Enemy_HoverBot</b> prefab into the scene
+      m_TutorialButtonText: 
+      m_Tutorial: {fileID: 0}
+      m_Icons:
+        m_Items: []
+      m_Image: {fileID: 0}
+      m_Video: {fileID: 0}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items:
+        - type:
+            m_TypeName: Unity.InteractiveTutorials.InstantiatePrefabCriterion, Unity.InteractiveTutorials.Core,
+              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          criterion: {fileID: -1524175419944787507, guid: db255913d0ab24aebab584a7e24d64be,
+            type: 2}
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews:
+        - m_SelectorType: 1
+          m_ViewType:
+            m_TypeName: 
+          m_EditorWindowType:
+            m_TypeName: UnityEditor.ProjectBrowser, UnityEditor, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
+          m_AlternateEditorWindowTypes:
+            m_Items: []
+          m_MaskType: 0
+          m_MaskSizeModifier: 0
+          m_UnmaskedControls:
+          - m_SelectorMode: 0
+            m_GUIContent:
+              m_Text: Enemy_HoverBot
+              m_Image: {fileID: 0}
+              m_Tooltip: 
+            m_ControlName: 
+            m_PropertyPath: 
+            m_TargetType:
+              m_TypeName: 
+            m_GUIStyleName: 
   - paragraph:
       m_Type: 7
       m_Summary: 
@@ -1254,9 +568,9 @@ MonoBehaviour:
             m_GUIStyleName: 
   - paragraph:
       m_Type: 0
-      m_Summary: Select Move Tool
-      m_Description: 'Let''s position the room by using the <b>Move Tool</b>. Start
-        by selecting the tool from toolbar:'
+      m_Summary: Position your Enemy
+      m_Description: To position your enemy in your game, you need to use the <b>Move
+        Tool</b>. Start by selecting the tool from the <b>toolbar</b>.
       m_InstructionBoxTitle: 
       m_InstructionText: 
       m_TutorialButtonText: 
@@ -1277,7 +591,7 @@ MonoBehaviour:
       m_Description: 
       m_InstructionBoxTitle: Select the Move Tool
       m_InstructionText: "Click the Move Tool in the upper left corner of the Toolbar
-        at the top of the editor. \n\nYou can also use keyboard shortcut <b>W</b>."
+        at the top of the editor. \n<br/>\nYou can also use keyboard shortcut <b>W</b>."
       m_TutorialButtonText: 
       m_Tutorial: {fileID: 0}
       m_Icons:
@@ -1290,7 +604,7 @@ MonoBehaviour:
         - type:
             m_TypeName: Unity.InteractiveTutorials.ActiveToolCriterion, Unity.InteractiveTutorials.Core,
               Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-          criterion: {fileID: 114906929772738234, guid: c83a4ddcf9c7a489cb25b31f69c78791,
+          criterion: {fileID: 114906929772738234, guid: 189edae67694549d7a713a5feffd1094,
             type: 2}
       m_MaskingSettings:
         m_MaskingEnabled: 0
@@ -1368,9 +682,10 @@ MonoBehaviour:
           m_UnmaskedControls: []
   - paragraph:
       m_Type: 0
-      m_Summary: Move your Room
-      m_Description: 'Use move tool in <b>Scene view</b> to reposition the <b>Room_Altar</b>
-        object:'
+      m_Summary: Move your Enemy
+      m_Description: "Is your enemy in exactly the right place? \n<br/>\nIf not,
+        you can use the <b>Move Tool</b> directly in the <b>Scene View</b> to reposition
+        your enemy."
       m_InstructionBoxTitle: 
       m_InstructionText: 
       m_TutorialButtonText: 
@@ -1389,9 +704,9 @@ MonoBehaviour:
       m_Type: 1
       m_Summary: 
       m_Description: 
-      m_InstructionBoxTitle: Reposition Room_Altar
-      m_InstructionText: "Drag the <b>red</b>, <b>blue</b> or <b>green</b> handle
-        to move your Prefab around. \n\nPlace it wherever you think it looks good!"
+      m_InstructionBoxTitle: Reposition Enemy_HoverBot
+      m_InstructionText: Drag the red, blue  or green handle to move your Prefab
+        around. Place it wherever you think it looks good!
       m_TutorialButtonText: 
       m_Tutorial: {fileID: 0}
       m_Icons:
@@ -1405,19 +720,19 @@ MonoBehaviour:
             m_TypeName: Unity.InteractiveTutorials.PropertyModificationCriterion,
               Unity.InteractiveTutorials.Core, Version=0.0.0.0, Culture=neutral,
               PublicKeyToken=null
-          criterion: {fileID: 114992666044332448, guid: c323247eb512d4591a20a443736c7123,
+          criterion: {fileID: 114231739597224594, guid: e83dc02e6ff064ab3b6b55d346838376,
             type: 2}
         - type:
             m_TypeName: Unity.InteractiveTutorials.PropertyModificationCriterion,
               Unity.InteractiveTutorials.Core, Version=0.0.0.0, Culture=neutral,
               PublicKeyToken=null
-          criterion: {fileID: 114079788356251002, guid: c323247eb512d4591a20a443736c7123,
+          criterion: {fileID: 114748253409174282, guid: e83dc02e6ff064ab3b6b55d346838376,
             type: 2}
         - type:
             m_TypeName: Unity.InteractiveTutorials.PropertyModificationCriterion,
               Unity.InteractiveTutorials.Core, Version=0.0.0.0, Culture=neutral,
               PublicKeyToken=null
-          criterion: {fileID: 114268492800447420, guid: c323247eb512d4591a20a443736c7123,
+          criterion: {fileID: 114026550283571882, guid: e83dc02e6ff064ab3b6b55d346838376,
             type: 2}
       m_MaskingSettings:
         m_MaskingEnabled: 0
@@ -1455,260 +770,12 @@ MonoBehaviour:
           m_MaskSizeModifier: 0
           m_UnmaskedControls: []
   - paragraph:
-      m_Type: 7
-      m_Summary: 
-      m_Description: 
-      m_InstructionBoxTitle: 
-      m_InstructionText: 
-      m_TutorialButtonText: 
-      m_Tutorial: {fileID: 0}
-      m_Icons:
-        m_Items: []
-      m_Image: {fileID: 0}
-      m_Video: {fileID: 32900000, guid: 79dadb0d7a0c143db8700a2c64e462c8, type: 3}
-      m_CriteriaCompletion: 0
-      m_Criteria:
-        m_Items: []
-      m_MaskingSettings:
-        m_MaskingEnabled: 1
-        m_UnmaskedViews:
-        - m_SelectorType: 1
-          m_ViewType:
-            m_TypeName: 
-          m_EditorWindowType:
-            m_TypeName: UnityEditor.NavMeshEditorWindow, UnityEditor, Version=0.0.0.0,
-              Culture=neutral, PublicKeyToken=null
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls: []
-        - m_SelectorType: 1
-          m_ViewType:
-            m_TypeName: 
-          m_EditorWindowType:
-            m_TypeName: UnityEditor.SceneHierarchyWindow, UnityEditor, Version=0.0.0.0,
-              Culture=neutral, PublicKeyToken=null
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls:
-          - m_SelectorMode: 0
-            m_GUIContent:
-              m_Text: NavMeshSurface
-              m_Image: {fileID: 0}
-              m_Tooltip: 
-            m_ControlName: 
-            m_PropertyPath: 
-            m_TargetType:
-              m_TypeName: 
-            m_GUIStyleName: 
-  - paragraph:
-      m_Type: 0
-      m_Summary: 'Update Level Navigation Mesh
-
-
-'
-      m_Description: "When you are making changes to your level you need to update
-        it's <b>Navigation Mesh</b> to make enemies detect the updated level. \n\nThis
-        action is called <b>Nav Mesh Baking</b> and it is done on a Navigation Mesh
-        GameObject.\n\nFirst, let's select that GameObject in Hiearchy window."
-      m_InstructionBoxTitle: 
-      m_InstructionText: 
-      m_TutorialButtonText: 
-      m_Tutorial: {fileID: 0}
-      m_Icons:
-        m_Items: []
-      m_Image: {fileID: 0}
-      m_Video: {fileID: 0}
-      m_CriteriaCompletion: 0
-      m_Criteria:
-        m_Items: []
-      m_MaskingSettings:
-        m_MaskingEnabled: 0
-        m_UnmaskedViews:
-        - m_SelectorType: 1
-          m_ViewType:
-            m_TypeName: 
-          m_EditorWindowType:
-            m_TypeName: UnityEditor.NavMeshEditorWindow, UnityEditor, Version=0.0.0.0,
-              Culture=neutral, PublicKeyToken=null
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls: []
-        - m_SelectorType: 1
-          m_ViewType:
-            m_TypeName: 
-          m_EditorWindowType:
-            m_TypeName: UnityEditor.InspectorWindow, UnityEditor, Version=0.0.0.0,
-              Culture=neutral, PublicKeyToken=null
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls: []
-  - paragraph:
-      m_Type: 1
-      m_Summary: 
-      m_Description: 
-      m_InstructionBoxTitle: Select NavMeshSurface
-      m_InstructionText: Select the NavMeshSurface GameObject in the Hierarchy view.
-      m_TutorialButtonText: 
-      m_Tutorial: {fileID: 0}
-      m_Icons:
-        m_Items: []
-      m_Image: {fileID: 0}
-      m_Video: {fileID: 0}
-      m_CriteriaCompletion: 0
-      m_Criteria:
-        m_Items:
-        - type:
-            m_TypeName: Unity.InteractiveTutorials.RequiredSelectionCriterion, Unity.InteractiveTutorials.Core,
-              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-          criterion: {fileID: 114046183933657202, guid: 77cdde24ac2e841e8b74f2789993afd5,
-            type: 2}
-      m_MaskingSettings:
-        m_MaskingEnabled: 0
-        m_UnmaskedViews:
-        - m_SelectorType: 1
-          m_ViewType:
-            m_TypeName: 
-          m_EditorWindowType:
-            m_TypeName: UnityEditor.SceneHierarchyWindow, UnityEditor, Version=0.0.0.0,
-              Culture=neutral, PublicKeyToken=null
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls:
-          - m_SelectorMode: 0
-            m_GUIContent:
-              m_Text: NavMeshSurface
-              m_Image: {fileID: 0}
-              m_Tooltip: 
-            m_ControlName: 
-            m_PropertyPath: 
-            m_TargetType:
-              m_TypeName: 
-            m_GUIStyleName: 
-  - paragraph:
       m_Type: 6
       m_Summary: 
       m_Description: 
       m_InstructionBoxTitle: 
       m_InstructionText: 
-      m_TutorialButtonText: 
-      m_Tutorial: {fileID: 0}
-      m_Icons:
-        m_Items: []
-      m_Image: {fileID: 2800000, guid: 04ad4882689a148358ac29d94d99a7ea, type: 3}
-      m_Video: {fileID: 32900000, guid: 2ef66e9421ba84839adef32dccdd7f80, type: 3}
-      m_CriteriaCompletion: 0
-      m_Criteria:
-        m_Items: []
-      m_MaskingSettings:
-        m_MaskingEnabled: 1
-        m_UnmaskedViews:
-        - m_SelectorType: 1
-          m_ViewType:
-            m_TypeName: 
-          m_EditorWindowType:
-            m_TypeName: UnityEditor.InspectorWindow, UnityEditor, Version=0.0.0.0,
-              Culture=neutral, PublicKeyToken=null
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls:
-          - m_SelectorMode: 0
-            m_GUIContent:
-              m_Text: Bake
-              m_Image: {fileID: 0}
-              m_Tooltip: 
-            m_ControlName: 
-            m_PropertyPath: 
-            m_TargetType:
-              m_TypeName: 
-            m_GUIStyleName: 
-        - m_SelectorType: 1
-          m_ViewType:
-            m_TypeName: 
-          m_EditorWindowType:
-            m_TypeName: UnityEditor.SceneView, UnityEditor, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 1
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls: []
-  - paragraph:
-      m_Type: 0
-      m_Summary: 'Bake Navigation Mesh
-
-'
-      m_Description: 'The <b>blue area</b> in the Scene view is where the enemies
-        can move. By clicking on the <b>Bake</b> button in Inspector you can update
-        it to also include your newly added room.
-
-
-        After you have succesfully
-        baked navigation mesh, click <b>Next</b> to continue.'
-      m_InstructionBoxTitle: 
-      m_InstructionText: 
-      m_TutorialButtonText: 
-      m_Tutorial: {fileID: 0}
-      m_Icons:
-        m_Items: []
-      m_Image: {fileID: 0}
-      m_Video: {fileID: 0}
-      m_CriteriaCompletion: 0
-      m_Criteria:
-        m_Items: []
-      m_MaskingSettings:
-        m_MaskingEnabled: 1
-        m_UnmaskedViews:
-        - m_SelectorType: 1
-          m_ViewType:
-            m_TypeName: 
-          m_EditorWindowType:
-            m_TypeName: UnityEditor.InspectorWindow, UnityEditor, Version=0.0.0.0,
-              Culture=neutral, PublicKeyToken=null
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls:
-          - m_SelectorMode: 0
-            m_GUIContent:
-              m_Text: Bake
-              m_Image: {fileID: 0}
-              m_Tooltip: 
-            m_ControlName: 
-            m_PropertyPath: 
-            m_TargetType:
-              m_TypeName: 
-            m_GUIStyleName: 
-        - m_SelectorType: 1
-          m_ViewType:
-            m_TypeName: 
-          m_EditorWindowType:
-            m_TypeName: UnityEditor.SceneView, UnityEditor, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 1
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls: []
-  - paragraph:
-      m_Type: 6
-      m_Summary: 
-      m_Description: 
-      m_InstructionBoxTitle: 
-      m_InstructionText: 
-      m_TutorialButtonText: 'Tutorial 3: Edit Colors'
+      m_TutorialButtonText: 'Tutorial 5: Build and Share'
       m_Tutorial: {fileID: 0}
       m_Icons:
         m_Items: []
@@ -1718,20 +785,15 @@ MonoBehaviour:
       m_Criteria:
         m_Items: []
       m_MaskingSettings:
-        m_MaskingEnabled: 1
+        m_MaskingEnabled: 0
         m_UnmaskedViews: []
   - paragraph:
       m_Type: 0
-      m_Summary: 'Tutorial Completed
-
-
-'
-      m_Description: 'Now you''ve learned more about the Editor UI and how to build
-        your level with prefabs.
-
-
-        <b>Next up</b>: Learn how to change colors
-        in your level.'
+      m_Summary: Tutorial Completed
+      m_Description: "In the toolbar you can also find the <b>Rotate</b> and <b>Scale</b>
+        tools that work in similar way to <b>Move</b> tool.\n<br/>\nFeel free to
+        add more enemies. \n<br/>\n<b>Next</b>, you will learn how to imnport a new
+        asset to the project."
       m_InstructionBoxTitle: 
       m_InstructionText: 
       m_TutorialButtonText: 
@@ -1752,8 +814,8 @@ MonoBehaviour:
       m_Description: 
       m_InstructionBoxTitle: 
       m_InstructionText: 
-      m_TutorialButtonText: 'Tutorial 3: Edit Colors'
-      m_Tutorial: {fileID: 11400000, guid: 5d0306ad1c1d347ed8eb91190a9e45c2, type: 2}
+      m_TutorialButtonText: 'Tutorial 5: Build and Share'
+      m_Tutorial: {fileID: 0}
       m_Icons:
         m_Items: []
       m_Image: {fileID: 0}
@@ -1770,8 +832,8 @@ MonoBehaviour:
       m_Description: 
       m_InstructionBoxTitle: 
       m_InstructionText: 
-      m_TutorialButtonText: 'Tutorial 3: Edit Colors'
-      m_Tutorial: {fileID: 11400000, guid: 5d0306ad1c1d347ed8eb91190a9e45c2, type: 2}
+      m_TutorialButtonText: 'Tutorial 5: Import Your First Asset'
+      m_Tutorial: {fileID: 11400000, guid: acc3795cfd9ef4206836da4a1d377627, type: 2}
       m_Icons:
         m_Items: []
       m_Image: {fileID: 0}
@@ -1780,11 +842,11 @@ MonoBehaviour:
       m_Criteria:
         m_Items: []
       m_MaskingSettings:
-        m_MaskingEnabled: 1
+        m_MaskingEnabled: 0
         m_UnmaskedViews: []
   m_Readme: {fileID: 11400000, guid: 977fb762f450240fd9006b8153a0f534, type: 2}
   m_MaskingEnabled: 1
-  m_FarthestPageCompleted: 5
+  m_FarthestPageCompleted: 3
   m_PlayModeChanging: 0
 --- !u!114 &15
 MonoBehaviour:
@@ -1851,20 +913,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/FPS/Prefabs/Level/Rooms
+    - Assets/FPS/Prefabs/Enemies
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/FPS/Prefabs/Level/Rooms
+  - Assets/FPS/Prefabs/Enemies
   m_LastFoldersGridSize: 96
   m_LastProjectPath: C:\Users\anepomnyaschih\Documents\GitHub\Quarter-Life-E3\MyFirstGame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 106}
-    m_SelectedIDs: b68d0000
-    m_LastClickedID: 36278
-    m_ExpandedIDs: 00000000048c0000308c0000b88d0000ba8d000000ca9a3b
+    scrollPos: {x: 0, y: 122}
+    m_SelectedIDs: 408c0000
+    m_LastClickedID: 35904
+    m_ExpandedIDs: 00000000048c00002c8c0000368c0000388c00003c8c00004c8e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1892,7 +954,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000048c000000ca9a3b
+    m_ExpandedIDs: 00000000048c00002c8c0000368c0000388c00003c8c00004c8e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1919,7 +981,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -2015,9 +1077,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 5804f9ff1cf1f9ff8a84ffffd0fbffff
+      m_SelectedIDs: b0c0fdff
+      m_LastClickedID: -147280
+      m_ExpandedIDs: da58fbffcc3cfeffd0fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -2077,9 +1139,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -15.532925, y: 30.263758, z: 3.6273193}
+    m_Target: {x: -5.942104, y: 19.56448, z: -18.877201}
     speed: 2
-    m_Value: {x: -15.5299635, y: 30.262215, z: 3.6279073}
+    m_Value: {x: -5.942103, y: 19.564478, z: -18.8772}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -2125,13 +1187,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.371682, y: 0.11788994, z: -0.047647916, w: -0.91961086}
+    m_Target: {x: -0.39582315, y: -0.2078485, z: 0.092470676, w: -0.88970345}
     speed: 2
-    m_Value: {x: -0.37167922, y: 0.11786605, z: -0.04764195, w: -0.91961545}
+    m_Value: {x: -0.39582312, y: -0.2078485, z: 0.09247068, w: -0.8897034}
   m_Size:
-    m_Target: 28.64719
+    m_Target: 1.1299663
     speed: 2
-    m_Value: 28.64682
+    m_Value: 1.1299672
   m_Ortho:
     m_Target: 0
     speed: 2
